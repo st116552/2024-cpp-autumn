@@ -69,7 +69,7 @@ int TextEditor::deleteText(int k) {
 }
 std::string TextEditor::cursorLeft(int k) {
     std::string str = "";
-    char tmp;
+    char tmp = 0;
     while (k > 0 && !leftPart.empty()) {
         tmp = leftPart.top();
         leftPart.pop();
@@ -82,7 +82,7 @@ std::string TextEditor::cursorLeft(int k) {
 
 std::string TextEditor::cursorRight(int k) {
     std::string str = "";
-    char tmp;
+    char tmp = 0;
     while (k > 0 && !rightPart.empty()) {
         tmp = rightPart.top();
         rightPart.pop();
@@ -92,4 +92,3 @@ std::string TextEditor::cursorRight(int k) {
     }
     return str;
 }
-
