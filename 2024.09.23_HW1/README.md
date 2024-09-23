@@ -1,9 +1,9 @@
-#TextEditor
+# TextEditor
 
-##Description
+## Description
 Implementation and demonstration of several functions, following the example of a text editor.
 
-##Task
+## Task
 Создайте текстовый редактор с курсором, который может выполнять следующие действия:
 
 - Добавлять текст в позицию курсора.
