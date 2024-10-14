@@ -23,8 +23,13 @@ string cursorRight(int k) - Смещает курсор на k символов 
 
 ## Running the Application
 ```bash
-./ g++ main.cpp TextEditor.cpp -o MyProg
+./ g++ main.cpp text_editor.cpp -o MyProg
 ./ MyProg
 
 ```
+
+## Author
+
+Smetanina Ekatherina
+st116552
 
